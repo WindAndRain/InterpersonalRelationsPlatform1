@@ -30,6 +30,7 @@
     [login loginTXWeibo];
     
 
+    NSLog(@"4545464--------5445");
     
     /*
     HDLAvatarImageView *imageView = [[HDLAvatarImageView alloc] init];
