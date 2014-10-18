@@ -296,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				BB654AB319F11F7F00532038 /* InterpersonalRelationsPlatform */,
+				BB654AE019F121A300532038 /* View */,
 				BB654AD019F11F7F00532038 /* InterpersonalRelationsPlatformTests */,
 				BB654AAA19F11F7F00532038 /* Frameworks */,
 				BB654AA919F11F7F00532038 /* Products */,
@@ -382,6 +383,7 @@
 				0FA8B00C19F25123005F960A /* aTableViewCell.xib */,
 			);
 			name = View;
+			path = InterpersonalRelationsPlatform;
 			sourceTree = "<group>";
 		};
 		BB654AE119F121AB00532038 /* Controller */ = {
@@ -398,7 +400,6 @@
 		BB654AE219F121DD00532038 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BB654AE019F121A300532038 /* View */,
 			);
 			name = Model;
 			sourceTree = "<group>";
