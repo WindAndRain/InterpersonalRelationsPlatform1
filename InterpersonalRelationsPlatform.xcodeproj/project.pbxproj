@@ -36,6 +36,7 @@
 		BBA0BCA219F22BEE0027C5FD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA0BCA119F22BEE0027C5FD /* Social.framework */; };
 		BBA0BCA419F22C080027C5FD /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA0BCA319F22C080027C5FD /* Accounts.framework */; };
 		BBA0BCA619F22C160027C5FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA0BCA519F22C160027C5FD /* Security.framework */; };
+		BBB2019019F2504600FA4004 /* HDLAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB2018E19F2504600FA4004 /* HDLAvatarImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		BBA0BCA119F22BEE0027C5FD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		BBA0BCA319F22C080027C5FD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		BBA0BCA519F22C160027C5FD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BBB2018E19F2504600FA4004 /* HDLAvatarImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLAvatarImageView.m; sourceTree = "<group>"; };
+		BBB2018F19F2504600FA4004 /* HDLAvatarImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLAvatarImageView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +200,7 @@
 		BB654AE019F121A300532038 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BBB2018D19F2501300FA4004 /* 头像ImageView */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -245,6 +249,15 @@
 			children = (
 			);
 			name = Tools;
+			sourceTree = "<group>";
+		};
+		BBB2018D19F2501300FA4004 /* 头像ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				BBB2018E19F2504600FA4004 /* HDLAvatarImageView.m */,
+				BBB2018F19F2504600FA4004 /* HDLAvatarImageView.h */,
+			);
+			name = "头像ImageView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB2019019F2504600FA4004 /* HDLAvatarImageView.m in Sources */,
 				BB654AC119F11F7F00532038 /* InterpersonalRelationsPlatform.xcdatamodeld in Sources */,
 				BB654ABA19F11F7F00532038 /* main.m in Sources */,
 				BB654ABE19F11F7F00532038 /* HDLAppDelegate.m in Sources */,
