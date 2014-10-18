@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B440103F19F25B0E002CE4C8 /* RoootHDLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B440103D19F25B0E002CE4C8 /* RoootHDLViewController.m */; };
+		B440104019F25B0E002CE4C8 /* RoootHDLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B440103E19F25B0E002CE4C8 /* RoootHDLViewController.xib */; };
+		B440104419F25B1C002CE4C8 /* EEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B440104219F25B1C002CE4C8 /* EEViewController.m */; };
+		B440104519F25B1C002CE4C8 /* EEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B440104319F25B1C002CE4C8 /* EEViewController.xib */; };
 		B4A5DF8419F25037006EA419 /* libTCWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A5DF8119F25037006EA419 /* libTCWeiboSDK.a */; };
 		B4A5DF8C19F251A0006EA419 /* DataInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A5DF8B19F251A0006EA419 /* DataInterface.m */; };
 		BB654AAC19F11F7F00532038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB654AAB19F11F7F00532038 /* Foundation.framework */; };
@@ -45,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B440103C19F25B0E002CE4C8 /* RoootHDLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoootHDLViewController.h; sourceTree = "<group>"; };
+		B440103D19F25B0E002CE4C8 /* RoootHDLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoootHDLViewController.m; sourceTree = "<group>"; };
+		B440103E19F25B0E002CE4C8 /* RoootHDLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoootHDLViewController.xib; sourceTree = "<group>"; };
+		B440104119F25B1C002CE4C8 /* EEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEViewController.h; sourceTree = "<group>"; };
+		B440104219F25B1C002CE4C8 /* EEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEViewController.m; sourceTree = "<group>"; };
+		B440104319F25B1C002CE4C8 /* EEViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EEViewController.xib; sourceTree = "<group>"; };
 		B4A5DF8119F25037006EA419 /* libTCWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTCWeiboSDK.a; sourceTree = "<group>"; };
 		B4A5DF8A19F251A0006EA419 /* DataInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataInterface.h; sourceTree = "<group>"; };
 		B4A5DF8B19F251A0006EA419 /* DataInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataInterface.m; sourceTree = "<group>"; };
@@ -201,6 +211,12 @@
 			children = (
 				B4A5DF8A19F251A0006EA419 /* DataInterface.h */,
 				B4A5DF8B19F251A0006EA419 /* DataInterface.m */,
+				B440103C19F25B0E002CE4C8 /* RoootHDLViewController.h */,
+				B440103D19F25B0E002CE4C8 /* RoootHDLViewController.m */,
+				B440103E19F25B0E002CE4C8 /* RoootHDLViewController.xib */,
+				B440104119F25B1C002CE4C8 /* EEViewController.h */,
+				B440104219F25B1C002CE4C8 /* EEViewController.m */,
+				B440104319F25B1C002CE4C8 /* EEViewController.xib */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -292,7 +308,9 @@
 				BB654AF819F1229200532038 /* (null) in Resources */,
 				BB654AF619F1229200532038 /* (null) in Resources */,
 				BB654AF419F1229200532038 /* (null) in Resources */,
+				B440104519F25B1C002CE4C8 /* EEViewController.xib in Resources */,
 				BB654AEF19F1229200532038 /* (null) in Resources */,
+				B440104019F25B0E002CE4C8 /* RoootHDLViewController.xib in Resources */,
 				BB654AF719F1229200532038 /* (null) in Resources */,
 				BB654AC319F11F7F00532038 /* Images.xcassets in Resources */,
 			);
@@ -313,9 +331,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B440104419F25B1C002CE4C8 /* EEViewController.m in Sources */,
 				BB654AC119F11F7F00532038 /* InterpersonalRelationsPlatform.xcdatamodeld in Sources */,
 				BB654ABA19F11F7F00532038 /* main.m in Sources */,
 				B4A5DF8C19F251A0006EA419 /* DataInterface.m in Sources */,
+				B440103F19F25B0E002CE4C8 /* RoootHDLViewController.m in Sources */,
 				BB654ABE19F11F7F00532038 /* HDLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
