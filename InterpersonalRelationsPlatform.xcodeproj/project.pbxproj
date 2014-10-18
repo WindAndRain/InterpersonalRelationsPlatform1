@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0FA8B00519F2507F005F960A /* XNTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8B00419F2507F005F960A /* XNTabBarViewController.m */; };
-		0FA8B00D19F25123005F960A /* HDLAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8B00B19F25123005F960A /* HDLAvatarImageView.m */; };
 		0FA8B00E19F25123005F960A /* aTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FA8B00C19F25123005F960A /* aTableViewCell.xib */; };
 		0FA8B01519F25143005F960A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8B01019F25143005F960A /* HomeViewController.m */; };
 		0FA8B01619F25143005F960A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FA8B01119F25143005F960A /* HomeViewController.xib */; };
@@ -77,8 +76,6 @@
 /* Begin PBXFileReference section */
 		0FA8B00319F2507F005F960A /* XNTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNTabBarViewController.h; sourceTree = "<group>"; };
 		0FA8B00419F2507F005F960A /* XNTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNTabBarViewController.m; sourceTree = "<group>"; };
-		0FA8B00A19F25123005F960A /* HDLAvatarImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLAvatarImageView.h; sourceTree = "<group>"; };
-		0FA8B00B19F25123005F960A /* HDLAvatarImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLAvatarImageView.m; sourceTree = "<group>"; };
 		0FA8B00C19F25123005F960A /* aTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = aTableViewCell.xib; sourceTree = "<group>"; };
 		0FA8B00F19F25143005F960A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		0FA8B01019F25143005F960A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
@@ -378,8 +375,6 @@
 		BB654AE019F121A300532038 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0FA8B00A19F25123005F960A /* HDLAvatarImageView.h */,
-				0FA8B00B19F25123005F960A /* HDLAvatarImageView.m */,
 				0FA8B00C19F25123005F960A /* aTableViewCell.xib */,
 			);
 			name = View;
@@ -530,7 +525,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA8B00519F2507F005F960A /* XNTabBarViewController.m in Sources */,
-				0FA8B00D19F25123005F960A /* HDLAvatarImageView.m in Sources */,
 				0FA8B05F19F25244005F960A /* MJRefreshHeaderView.m in Sources */,
 				BB654AC119F11F7F00532038 /* InterpersonalRelationsPlatform.xcdatamodeld in Sources */,
 				0FA8B05E19F25244005F960A /* MJRefreshFooterView.m in Sources */,
