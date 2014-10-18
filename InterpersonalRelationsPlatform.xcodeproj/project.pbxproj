@@ -102,8 +102,6 @@
 		BB654B8A19F1276D00532038 /* tabs.css in Resources */ = {isa = PBXBuildFile; fileRef = BB654B4019F1276D00532038 /* tabs.css */; };
 		BB654B8D19F1276D00532038 /* libTCWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB654B4419F1276D00532038 /* libTCWeiboSDK.a */; };
 		BB654B8F19F1280300532038 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB654B8E19F1280300532038 /* SystemConfiguration.framework */; };
-		BB654B9419F128D600532038 /* HDLUserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB654B9219F128D600532038 /* HDLUserLoginViewController.m */; };
-		BB654B9519F128D600532038 /* HDLUserLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB654B9319F128D600532038 /* HDLUserLoginViewController.xib */; };
 		BB79A09419F1FEE600FD47A6 /* HDLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB79A09219F1FEE600FD47A6 /* HDLHomeViewController.m */; };
 		BB79A09519F1FEE600FD47A6 /* HDLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB79A09319F1FEE600FD47A6 /* HDLHomeViewController.xib */; };
 		BB79A09B19F1FFD900FD47A6 /* HDLAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB79A09A19F1FFD900FD47A6 /* HDLAvatarImageView.m */; };
@@ -226,9 +224,6 @@
 		BB654B4519F1276D00532038 /* WeiboApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboApi.h; sourceTree = "<group>"; };
 		BB654B4619F1276D00532038 /* WeiboApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboApiObject.h; sourceTree = "<group>"; };
 		BB654B8E19F1280300532038 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		BB654B9119F128D600532038 /* HDLUserLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLUserLoginViewController.h; sourceTree = "<group>"; };
-		BB654B9219F128D600532038 /* HDLUserLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLUserLoginViewController.m; sourceTree = "<group>"; };
-		BB654B9319F128D600532038 /* HDLUserLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDLUserLoginViewController.xib; sourceTree = "<group>"; };
 		BB79A09119F1FEE600FD47A6 /* HDLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLHomeViewController.h; sourceTree = "<group>"; };
 		BB79A09219F1FEE600FD47A6 /* HDLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLHomeViewController.m; sourceTree = "<group>"; };
 		BB79A09319F1FEE600FD47A6 /* HDLHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDLHomeViewController.xib; sourceTree = "<group>"; };
@@ -312,9 +307,6 @@
 			children = (
 				BB654ABC19F11F7F00532038 /* HDLAppDelegate.h */,
 				BB654ABD19F11F7F00532038 /* HDLAppDelegate.m */,
-				BB654B9119F128D600532038 /* HDLUserLoginViewController.h */,
-				BB654B9219F128D600532038 /* HDLUserLoginViewController.m */,
-				BB654B9319F128D600532038 /* HDLUserLoginViewController.xib */,
 				BB654AF919F1273300532038 /* Tools */,
 				BB654AE219F121DD00532038 /* Model */,
 				BB654AE119F121AB00532038 /* Controller */,
@@ -645,7 +637,6 @@
 				BB654B5519F1276D00532038 /* ftv2blank.png in Resources */,
 				BB654B8619F1276D00532038 /* tab_a.png in Resources */,
 				BB654B5619F1276D00532038 /* ftv2cl.png in Resources */,
-				BB654B9519F128D600532038 /* HDLUserLoginViewController.xib in Resources */,
 				BB654B7419F1276D00532038 /* nav_f.png in Resources */,
 				BB654B8419F1276D00532038 /* sync_off.png in Resources */,
 				BB654B4719F1276D00532038 /* _weibo_api_8h_source.html in Resources */,
@@ -713,7 +704,6 @@
 				BB654B8119F1276D00532038 /* protocol_weibo_request_delegate-p.js in Sources */,
 				BB654B6E19F1276D00532038 /* interface_weibo_api.js in Sources */,
 				BB654ABA19F11F7F00532038 /* main.m in Sources */,
-				BB654B9419F128D600532038 /* HDLUserLoginViewController.m in Sources */,
 				BB79A09B19F1FFD900FD47A6 /* HDLAvatarImageView.m in Sources */,
 				BB654B7119F1276D00532038 /* interface_weibo_api_object.js in Sources */,
 				BB654B7319F1276D00532038 /* jquery.js in Sources */,

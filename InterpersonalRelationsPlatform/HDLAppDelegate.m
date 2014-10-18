@@ -7,7 +7,6 @@
 //
 
 #import "HDLAppDelegate.h"
-#import "HDLUserLoginViewController.h"
 #import "HDLHomeViewController.h"
 
 @implementation HDLAppDelegate
@@ -21,12 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    HDLUserLoginViewController *userLogin = [[HDLUserLoginViewController alloc] init];
     
-    HDLHomeViewController *home = [[HDLHomeViewController alloc] init];
-    
-    
-    self.window.rootViewController = home;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
