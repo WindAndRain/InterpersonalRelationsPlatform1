@@ -296,7 +296,6 @@
 			isa = PBXGroup;
 			children = (
 				BB654AB319F11F7F00532038 /* InterpersonalRelationsPlatform */,
-				BB654AE019F121A300532038 /* View */,
 				BB654AD019F11F7F00532038 /* InterpersonalRelationsPlatformTests */,
 				BB654AAA19F11F7F00532038 /* Frameworks */,
 				BB654AA919F11F7F00532038 /* Products */,
@@ -331,6 +330,7 @@
 		BB654AB319F11F7F00532038 /* InterpersonalRelationsPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				BB654AE019F121A300532038 /* View */,
 				BB654ABC19F11F7F00532038 /* HDLAppDelegate.h */,
 				BB654ABD19F11F7F00532038 /* HDLAppDelegate.m */,
 				0FA8B00319F2507F005F960A /* XNTabBarViewController.h */,
@@ -383,7 +383,6 @@
 				0FA8B00C19F25123005F960A /* aTableViewCell.xib */,
 			);
 			name = View;
-			path = InterpersonalRelationsPlatform;
 			sourceTree = "<group>";
 		};
 		BB654AE119F121AB00532038 /* Controller */ = {
