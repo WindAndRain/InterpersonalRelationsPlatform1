@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    NSLog(@"1231231");
+    NSLog(@"1231231我来了");
     
     
     HDLTXTwitterAuthorization *login = [[HDLTXTwitterAuthorization alloc] init];
