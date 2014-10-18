@@ -32,82 +32,7 @@
 		BB654AF619F1229200532038 /* btn_maintab_me_male_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654AEC19F1229200532038 /* btn_maintab_me_male_press@2x.png */; };
 		BB654AF719F1229200532038 /* btn_maintab_message_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654AED19F1229200532038 /* btn_maintab_message_nor@2x.png */; };
 		BB654AF819F1229200532038 /* btn_maintab_message_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654AEE19F1229200532038 /* btn_maintab_message_press@2x.png */; };
-		BB654B4719F1276D00532038 /* _weibo_api_8h_source.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654AFD19F1276D00532038 /* _weibo_api_8h_source.html */; };
-		BB654B4819F1276D00532038 /* _weibo_api_object_8h_source.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654AFE19F1276D00532038 /* _weibo_api_object_8h_source.html */; };
-		BB654B4919F1276D00532038 /* annotated.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654AFF19F1276D00532038 /* annotated.html */; };
-		BB654B4A19F1276D00532038 /* annotated.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B0019F1276D00532038 /* annotated.js */; };
-		BB654B4B19F1276D00532038 /* bc_s.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0119F1276D00532038 /* bc_s.png */; };
-		BB654B4C19F1276D00532038 /* bdwn.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0219F1276D00532038 /* bdwn.png */; };
-		BB654B4D19F1276D00532038 /* class_weibo_api-members.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0319F1276D00532038 /* class_weibo_api-members.html */; };
-		BB654B4E19F1276D00532038 /* class_weibo_api_object-members.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0419F1276D00532038 /* class_weibo_api_object-members.html */; };
-		BB654B4F19F1276D00532038 /* classes.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0519F1276D00532038 /* classes.html */; };
-		BB654B5019F1276D00532038 /* closed.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0619F1276D00532038 /* closed.png */; };
-		BB654B5119F1276D00532038 /* dir_6537656865ee3923719aa1a57f584d1d.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0719F1276D00532038 /* dir_6537656865ee3923719aa1a57f584d1d.html */; };
-		BB654B5219F1276D00532038 /* doxygen.css in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0819F1276D00532038 /* doxygen.css */; };
-		BB654B5319F1276D00532038 /* doxygen.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0919F1276D00532038 /* doxygen.png */; };
-		BB654B5419F1276D00532038 /* dynsections.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B0A19F1276D00532038 /* dynsections.js */; };
-		BB654B5519F1276D00532038 /* ftv2blank.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0B19F1276D00532038 /* ftv2blank.png */; };
-		BB654B5619F1276D00532038 /* ftv2cl.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0C19F1276D00532038 /* ftv2cl.png */; };
-		BB654B5719F1276D00532038 /* ftv2doc.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0D19F1276D00532038 /* ftv2doc.png */; };
-		BB654B5819F1276D00532038 /* ftv2folderclosed.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0E19F1276D00532038 /* ftv2folderclosed.png */; };
-		BB654B5919F1276D00532038 /* ftv2folderopen.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B0F19F1276D00532038 /* ftv2folderopen.png */; };
-		BB654B5A19F1276D00532038 /* ftv2lastnode.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1019F1276D00532038 /* ftv2lastnode.png */; };
-		BB654B5B19F1276D00532038 /* ftv2link.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1119F1276D00532038 /* ftv2link.png */; };
-		BB654B5C19F1276D00532038 /* ftv2mlastnode.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1219F1276D00532038 /* ftv2mlastnode.png */; };
-		BB654B5D19F1276D00532038 /* ftv2mnode.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1319F1276D00532038 /* ftv2mnode.png */; };
-		BB654B5E19F1276D00532038 /* ftv2mo.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1419F1276D00532038 /* ftv2mo.png */; };
-		BB654B5F19F1276D00532038 /* ftv2node.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1519F1276D00532038 /* ftv2node.png */; };
-		BB654B6019F1276D00532038 /* ftv2ns.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1619F1276D00532038 /* ftv2ns.png */; };
-		BB654B6119F1276D00532038 /* ftv2plastnode.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1719F1276D00532038 /* ftv2plastnode.png */; };
-		BB654B6219F1276D00532038 /* ftv2pnode.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1819F1276D00532038 /* ftv2pnode.png */; };
-		BB654B6319F1276D00532038 /* ftv2splitbar.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1919F1276D00532038 /* ftv2splitbar.png */; };
-		BB654B6419F1276D00532038 /* ftv2vertline.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1A19F1276D00532038 /* ftv2vertline.png */; };
-		BB654B6519F1276D00532038 /* functions.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1B19F1276D00532038 /* functions.html */; };
-		BB654B6619F1276D00532038 /* functions_func.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1C19F1276D00532038 /* functions_func.html */; };
-		BB654B6719F1276D00532038 /* functions_prop.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1D19F1276D00532038 /* functions_prop.html */; };
-		BB654B6819F1276D00532038 /* functions_vars.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1E19F1276D00532038 /* functions_vars.html */; };
-		BB654B6919F1276D00532038 /* hierarchy.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B1F19F1276D00532038 /* hierarchy.html */; };
-		BB654B6A19F1276D00532038 /* hierarchy.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B2019F1276D00532038 /* hierarchy.js */; };
-		BB654B6B19F1276D00532038 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B2119F1276D00532038 /* icon.png */; };
-		BB654B6C19F1276D00532038 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B2219F1276D00532038 /* index.html */; };
-		BB654B6D19F1276D00532038 /* interface_weibo_api.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B2319F1276D00532038 /* interface_weibo_api.html */; };
-		BB654B6E19F1276D00532038 /* interface_weibo_api.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B2419F1276D00532038 /* interface_weibo_api.js */; };
-		BB654B6F19F1276D00532038 /* interface_weibo_api.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B2519F1276D00532038 /* interface_weibo_api.png */; };
-		BB654B7019F1276D00532038 /* interface_weibo_api_object.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B2619F1276D00532038 /* interface_weibo_api_object.html */; };
-		BB654B7119F1276D00532038 /* interface_weibo_api_object.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B2719F1276D00532038 /* interface_weibo_api_object.js */; };
-		BB654B7219F1276D00532038 /* interface_weibo_api_object.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B2819F1276D00532038 /* interface_weibo_api_object.png */; };
-		BB654B7319F1276D00532038 /* jquery.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B2919F1276D00532038 /* jquery.js */; };
-		BB654B7419F1276D00532038 /* nav_f.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B2A19F1276D00532038 /* nav_f.png */; };
-		BB654B7519F1276D00532038 /* nav_g.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B2B19F1276D00532038 /* nav_g.png */; };
-		BB654B7619F1276D00532038 /* nav_h.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B2C19F1276D00532038 /* nav_h.png */; };
-		BB654B7719F1276D00532038 /* navtree.css in Resources */ = {isa = PBXBuildFile; fileRef = BB654B2D19F1276D00532038 /* navtree.css */; };
-		BB654B7819F1276D00532038 /* navtree.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B2E19F1276D00532038 /* navtree.js */; };
-		BB654B7919F1276D00532038 /* navtreeindex0.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B2F19F1276D00532038 /* navtreeindex0.js */; };
-		BB654B7A19F1276D00532038 /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3019F1276D00532038 /* open.png */; };
-		BB654B7B19F1276D00532038 /* protocol_weibo_auth_delegate-p-members.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3119F1276D00532038 /* protocol_weibo_auth_delegate-p-members.html */; };
-		BB654B7C19F1276D00532038 /* protocol_weibo_auth_delegate-p.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3219F1276D00532038 /* protocol_weibo_auth_delegate-p.html */; };
-		BB654B7D19F1276D00532038 /* protocol_weibo_auth_delegate-p.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B3319F1276D00532038 /* protocol_weibo_auth_delegate-p.js */; };
-		BB654B7E19F1276D00532038 /* protocol_weibo_auth_delegate-p.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3419F1276D00532038 /* protocol_weibo_auth_delegate-p.png */; };
-		BB654B7F19F1276D00532038 /* protocol_weibo_request_delegate-p-members.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3519F1276D00532038 /* protocol_weibo_request_delegate-p-members.html */; };
-		BB654B8019F1276D00532038 /* protocol_weibo_request_delegate-p.html in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3619F1276D00532038 /* protocol_weibo_request_delegate-p.html */; };
-		BB654B8119F1276D00532038 /* protocol_weibo_request_delegate-p.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B3719F1276D00532038 /* protocol_weibo_request_delegate-p.js */; };
-		BB654B8219F1276D00532038 /* protocol_weibo_request_delegate-p.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3819F1276D00532038 /* protocol_weibo_request_delegate-p.png */; };
-		BB654B8319F1276D00532038 /* resize.js in Sources */ = {isa = PBXBuildFile; fileRef = BB654B3919F1276D00532038 /* resize.js */; };
-		BB654B8419F1276D00532038 /* sync_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3A19F1276D00532038 /* sync_off.png */; };
-		BB654B8519F1276D00532038 /* sync_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3B19F1276D00532038 /* sync_on.png */; };
-		BB654B8619F1276D00532038 /* tab_a.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3C19F1276D00532038 /* tab_a.png */; };
-		BB654B8719F1276D00532038 /* tab_b.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3D19F1276D00532038 /* tab_b.png */; };
-		BB654B8819F1276D00532038 /* tab_h.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3E19F1276D00532038 /* tab_h.png */; };
-		BB654B8919F1276D00532038 /* tab_s.png in Resources */ = {isa = PBXBuildFile; fileRef = BB654B3F19F1276D00532038 /* tab_s.png */; };
-		BB654B8A19F1276D00532038 /* tabs.css in Resources */ = {isa = PBXBuildFile; fileRef = BB654B4019F1276D00532038 /* tabs.css */; };
-		BB654B8D19F1276D00532038 /* libTCWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB654B4419F1276D00532038 /* libTCWeiboSDK.a */; };
 		BB654B8F19F1280300532038 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB654B8E19F1280300532038 /* SystemConfiguration.framework */; };
-		BB654B9419F128D600532038 /* HDLUserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB654B9219F128D600532038 /* HDLUserLoginViewController.m */; };
-		BB654B9519F128D600532038 /* HDLUserLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB654B9319F128D600532038 /* HDLUserLoginViewController.xib */; };
-		BB79A09419F1FEE600FD47A6 /* HDLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB79A09219F1FEE600FD47A6 /* HDLHomeViewController.m */; };
-		BB79A09519F1FEE600FD47A6 /* HDLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB79A09319F1FEE600FD47A6 /* HDLHomeViewController.xib */; };
-		BB79A09B19F1FFD900FD47A6 /* HDLAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB79A09A19F1FFD900FD47A6 /* HDLAvatarImageView.m */; };
-		BB79A0B919F21F8500FD47A6 /* HDLTXTwitterAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = BB79A0B819F21F8500FD47A6 /* HDLTXTwitterAuthorization.m */; };
 		BBA0BCA219F22BEE0027C5FD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA0BCA119F22BEE0027C5FD /* Social.framework */; };
 		BBA0BCA419F22C080027C5FD /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA0BCA319F22C080027C5FD /* Accounts.framework */; };
 		BBA0BCA619F22C160027C5FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA0BCA519F22C160027C5FD /* Security.framework */; };
@@ -152,90 +77,7 @@
 		BB654AEC19F1229200532038 /* btn_maintab_me_male_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_maintab_me_male_press@2x.png"; sourceTree = "<group>"; };
 		BB654AED19F1229200532038 /* btn_maintab_message_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_maintab_message_nor@2x.png"; sourceTree = "<group>"; };
 		BB654AEE19F1229200532038 /* btn_maintab_message_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_maintab_message_press@2x.png"; sourceTree = "<group>"; };
-		BB654AFD19F1276D00532038 /* _weibo_api_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _weibo_api_8h_source.html; sourceTree = "<group>"; };
-		BB654AFE19F1276D00532038 /* _weibo_api_object_8h_source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _weibo_api_object_8h_source.html; sourceTree = "<group>"; };
-		BB654AFF19F1276D00532038 /* annotated.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = annotated.html; sourceTree = "<group>"; };
-		BB654B0019F1276D00532038 /* annotated.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = annotated.js; sourceTree = "<group>"; };
-		BB654B0119F1276D00532038 /* bc_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_s.png; sourceTree = "<group>"; };
-		BB654B0219F1276D00532038 /* bdwn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bdwn.png; sourceTree = "<group>"; };
-		BB654B0319F1276D00532038 /* class_weibo_api-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "class_weibo_api-members.html"; sourceTree = "<group>"; };
-		BB654B0419F1276D00532038 /* class_weibo_api_object-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "class_weibo_api_object-members.html"; sourceTree = "<group>"; };
-		BB654B0519F1276D00532038 /* classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classes.html; sourceTree = "<group>"; };
-		BB654B0619F1276D00532038 /* closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closed.png; sourceTree = "<group>"; };
-		BB654B0719F1276D00532038 /* dir_6537656865ee3923719aa1a57f584d1d.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dir_6537656865ee3923719aa1a57f584d1d.html; sourceTree = "<group>"; };
-		BB654B0819F1276D00532038 /* doxygen.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = doxygen.css; sourceTree = "<group>"; };
-		BB654B0919F1276D00532038 /* doxygen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doxygen.png; sourceTree = "<group>"; };
-		BB654B0A19F1276D00532038 /* dynsections.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dynsections.js; sourceTree = "<group>"; };
-		BB654B0B19F1276D00532038 /* ftv2blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2blank.png; sourceTree = "<group>"; };
-		BB654B0C19F1276D00532038 /* ftv2cl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2cl.png; sourceTree = "<group>"; };
-		BB654B0D19F1276D00532038 /* ftv2doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2doc.png; sourceTree = "<group>"; };
-		BB654B0E19F1276D00532038 /* ftv2folderclosed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2folderclosed.png; sourceTree = "<group>"; };
-		BB654B0F19F1276D00532038 /* ftv2folderopen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2folderopen.png; sourceTree = "<group>"; };
-		BB654B1019F1276D00532038 /* ftv2lastnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2lastnode.png; sourceTree = "<group>"; };
-		BB654B1119F1276D00532038 /* ftv2link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2link.png; sourceTree = "<group>"; };
-		BB654B1219F1276D00532038 /* ftv2mlastnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2mlastnode.png; sourceTree = "<group>"; };
-		BB654B1319F1276D00532038 /* ftv2mnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2mnode.png; sourceTree = "<group>"; };
-		BB654B1419F1276D00532038 /* ftv2mo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2mo.png; sourceTree = "<group>"; };
-		BB654B1519F1276D00532038 /* ftv2node.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2node.png; sourceTree = "<group>"; };
-		BB654B1619F1276D00532038 /* ftv2ns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2ns.png; sourceTree = "<group>"; };
-		BB654B1719F1276D00532038 /* ftv2plastnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2plastnode.png; sourceTree = "<group>"; };
-		BB654B1819F1276D00532038 /* ftv2pnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2pnode.png; sourceTree = "<group>"; };
-		BB654B1919F1276D00532038 /* ftv2splitbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2splitbar.png; sourceTree = "<group>"; };
-		BB654B1A19F1276D00532038 /* ftv2vertline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2vertline.png; sourceTree = "<group>"; };
-		BB654B1B19F1276D00532038 /* functions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions.html; sourceTree = "<group>"; };
-		BB654B1C19F1276D00532038 /* functions_func.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func.html; sourceTree = "<group>"; };
-		BB654B1D19F1276D00532038 /* functions_prop.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_prop.html; sourceTree = "<group>"; };
-		BB654B1E19F1276D00532038 /* functions_vars.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_vars.html; sourceTree = "<group>"; };
-		BB654B1F19F1276D00532038 /* hierarchy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hierarchy.html; sourceTree = "<group>"; };
-		BB654B2019F1276D00532038 /* hierarchy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hierarchy.js; sourceTree = "<group>"; };
-		BB654B2119F1276D00532038 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		BB654B2219F1276D00532038 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		BB654B2319F1276D00532038 /* interface_weibo_api.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = interface_weibo_api.html; sourceTree = "<group>"; };
-		BB654B2419F1276D00532038 /* interface_weibo_api.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = interface_weibo_api.js; sourceTree = "<group>"; };
-		BB654B2519F1276D00532038 /* interface_weibo_api.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interface_weibo_api.png; sourceTree = "<group>"; };
-		BB654B2619F1276D00532038 /* interface_weibo_api_object.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = interface_weibo_api_object.html; sourceTree = "<group>"; };
-		BB654B2719F1276D00532038 /* interface_weibo_api_object.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = interface_weibo_api_object.js; sourceTree = "<group>"; };
-		BB654B2819F1276D00532038 /* interface_weibo_api_object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interface_weibo_api_object.png; sourceTree = "<group>"; };
-		BB654B2919F1276D00532038 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
-		BB654B2A19F1276D00532038 /* nav_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_f.png; sourceTree = "<group>"; };
-		BB654B2B19F1276D00532038 /* nav_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_g.png; sourceTree = "<group>"; };
-		BB654B2C19F1276D00532038 /* nav_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_h.png; sourceTree = "<group>"; };
-		BB654B2D19F1276D00532038 /* navtree.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = navtree.css; sourceTree = "<group>"; };
-		BB654B2E19F1276D00532038 /* navtree.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = navtree.js; sourceTree = "<group>"; };
-		BB654B2F19F1276D00532038 /* navtreeindex0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = navtreeindex0.js; sourceTree = "<group>"; };
-		BB654B3019F1276D00532038 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
-		BB654B3119F1276D00532038 /* protocol_weibo_auth_delegate-p-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "protocol_weibo_auth_delegate-p-members.html"; sourceTree = "<group>"; };
-		BB654B3219F1276D00532038 /* protocol_weibo_auth_delegate-p.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "protocol_weibo_auth_delegate-p.html"; sourceTree = "<group>"; };
-		BB654B3319F1276D00532038 /* protocol_weibo_auth_delegate-p.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "protocol_weibo_auth_delegate-p.js"; sourceTree = "<group>"; };
-		BB654B3419F1276D00532038 /* protocol_weibo_auth_delegate-p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "protocol_weibo_auth_delegate-p.png"; sourceTree = "<group>"; };
-		BB654B3519F1276D00532038 /* protocol_weibo_request_delegate-p-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "protocol_weibo_request_delegate-p-members.html"; sourceTree = "<group>"; };
-		BB654B3619F1276D00532038 /* protocol_weibo_request_delegate-p.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "protocol_weibo_request_delegate-p.html"; sourceTree = "<group>"; };
-		BB654B3719F1276D00532038 /* protocol_weibo_request_delegate-p.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "protocol_weibo_request_delegate-p.js"; sourceTree = "<group>"; };
-		BB654B3819F1276D00532038 /* protocol_weibo_request_delegate-p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "protocol_weibo_request_delegate-p.png"; sourceTree = "<group>"; };
-		BB654B3919F1276D00532038 /* resize.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = resize.js; sourceTree = "<group>"; };
-		BB654B3A19F1276D00532038 /* sync_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync_off.png; sourceTree = "<group>"; };
-		BB654B3B19F1276D00532038 /* sync_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync_on.png; sourceTree = "<group>"; };
-		BB654B3C19F1276D00532038 /* tab_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_a.png; sourceTree = "<group>"; };
-		BB654B3D19F1276D00532038 /* tab_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_b.png; sourceTree = "<group>"; };
-		BB654B3E19F1276D00532038 /* tab_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_h.png; sourceTree = "<group>"; };
-		BB654B3F19F1276D00532038 /* tab_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_s.png; sourceTree = "<group>"; };
-		BB654B4019F1276D00532038 /* tabs.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tabs.css; sourceTree = "<group>"; };
-		BB654B4219F1276D00532038 /* libTCWeiboSDK-arm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libTCWeiboSDK-arm.a"; sourceTree = "<group>"; };
-		BB654B4319F1276D00532038 /* libTCWeiboSDK-i386.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libTCWeiboSDK-i386.a"; sourceTree = "<group>"; };
-		BB654B4419F1276D00532038 /* libTCWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTCWeiboSDK.a; sourceTree = "<group>"; };
-		BB654B4519F1276D00532038 /* WeiboApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboApi.h; sourceTree = "<group>"; };
-		BB654B4619F1276D00532038 /* WeiboApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboApiObject.h; sourceTree = "<group>"; };
 		BB654B8E19F1280300532038 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		BB654B9119F128D600532038 /* HDLUserLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLUserLoginViewController.h; sourceTree = "<group>"; };
-		BB654B9219F128D600532038 /* HDLUserLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLUserLoginViewController.m; sourceTree = "<group>"; };
-		BB654B9319F128D600532038 /* HDLUserLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDLUserLoginViewController.xib; sourceTree = "<group>"; };
-		BB79A09119F1FEE600FD47A6 /* HDLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLHomeViewController.h; sourceTree = "<group>"; };
-		BB79A09219F1FEE600FD47A6 /* HDLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLHomeViewController.m; sourceTree = "<group>"; };
-		BB79A09319F1FEE600FD47A6 /* HDLHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDLHomeViewController.xib; sourceTree = "<group>"; };
-		BB79A09919F1FFD900FD47A6 /* HDLAvatarImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLAvatarImageView.h; sourceTree = "<group>"; };
-		BB79A09A19F1FFD900FD47A6 /* HDLAvatarImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLAvatarImageView.m; sourceTree = "<group>"; };
-		BB79A0B719F21F8500FD47A6 /* HDLTXTwitterAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLTXTwitterAuthorization.h; sourceTree = "<group>"; };
-		BB79A0B819F21F8500FD47A6 /* HDLTXTwitterAuthorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLTXTwitterAuthorization.m; sourceTree = "<group>"; };
 		BBA0BCA119F22BEE0027C5FD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		BBA0BCA319F22C080027C5FD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		BBA0BCA519F22C160027C5FD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -250,7 +92,6 @@
 				BBA0BCA419F22C080027C5FD /* Accounts.framework in Frameworks */,
 				BBA0BCA219F22BEE0027C5FD /* Social.framework in Frameworks */,
 				BB654B8F19F1280300532038 /* SystemConfiguration.framework in Frameworks */,
-				BB654B8D19F1276D00532038 /* libTCWeiboSDK.a in Frameworks */,
 				BB654AAE19F11F7F00532038 /* CoreGraphics.framework in Frameworks */,
 				BB654AB219F11F7F00532038 /* CoreData.framework in Frameworks */,
 				BB654AB019F11F7F00532038 /* UIKit.framework in Frameworks */,
@@ -312,9 +153,6 @@
 			children = (
 				BB654ABC19F11F7F00532038 /* HDLAppDelegate.h */,
 				BB654ABD19F11F7F00532038 /* HDLAppDelegate.m */,
-				BB654B9119F128D600532038 /* HDLUserLoginViewController.h */,
-				BB654B9219F128D600532038 /* HDLUserLoginViewController.m */,
-				BB654B9319F128D600532038 /* HDLUserLoginViewController.xib */,
 				BB654AF919F1273300532038 /* Tools */,
 				BB654AE219F121DD00532038 /* Model */,
 				BB654AE119F121AB00532038 /* Controller */,
@@ -359,7 +197,6 @@
 		BB654AE019F121A300532038 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BB79A0A219F2085D00FD47A6 /* 头像 */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -367,9 +204,6 @@
 		BB654AE119F121AB00532038 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BB79A09119F1FEE600FD47A6 /* HDLHomeViewController.h */,
-				BB79A09219F1FEE600FD47A6 /* HDLHomeViewController.m */,
-				BB79A09319F1FEE600FD47A6 /* HDLHomeViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -377,7 +211,6 @@
 		BB654AE219F121DD00532038 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BB79A0B619F21F1800FD47A6 /* 授权 */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -410,131 +243,8 @@
 		BB654AF919F1273300532038 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				BB654AFA19F1276D00532038 /* TCWeiboSDK */,
 			);
 			name = Tools;
-			sourceTree = "<group>";
-		};
-		BB654AFA19F1276D00532038 /* TCWeiboSDK */ = {
-			isa = PBXGroup;
-			children = (
-				BB654AFB19F1276D00532038 /* doc */,
-				BB654B4119F1276D00532038 /* lib */,
-			);
-			path = TCWeiboSDK;
-			sourceTree = "<group>";
-		};
-		BB654AFB19F1276D00532038 /* doc */ = {
-			isa = PBXGroup;
-			children = (
-				BB654AFC19F1276D00532038 /* html */,
-			);
-			path = doc;
-			sourceTree = "<group>";
-		};
-		BB654AFC19F1276D00532038 /* html */ = {
-			isa = PBXGroup;
-			children = (
-				BB654AFD19F1276D00532038 /* _weibo_api_8h_source.html */,
-				BB654AFE19F1276D00532038 /* _weibo_api_object_8h_source.html */,
-				BB654AFF19F1276D00532038 /* annotated.html */,
-				BB654B0019F1276D00532038 /* annotated.js */,
-				BB654B0119F1276D00532038 /* bc_s.png */,
-				BB654B0219F1276D00532038 /* bdwn.png */,
-				BB654B0319F1276D00532038 /* class_weibo_api-members.html */,
-				BB654B0419F1276D00532038 /* class_weibo_api_object-members.html */,
-				BB654B0519F1276D00532038 /* classes.html */,
-				BB654B0619F1276D00532038 /* closed.png */,
-				BB654B0719F1276D00532038 /* dir_6537656865ee3923719aa1a57f584d1d.html */,
-				BB654B0819F1276D00532038 /* doxygen.css */,
-				BB654B0919F1276D00532038 /* doxygen.png */,
-				BB654B0A19F1276D00532038 /* dynsections.js */,
-				BB654B0B19F1276D00532038 /* ftv2blank.png */,
-				BB654B0C19F1276D00532038 /* ftv2cl.png */,
-				BB654B0D19F1276D00532038 /* ftv2doc.png */,
-				BB654B0E19F1276D00532038 /* ftv2folderclosed.png */,
-				BB654B0F19F1276D00532038 /* ftv2folderopen.png */,
-				BB654B1019F1276D00532038 /* ftv2lastnode.png */,
-				BB654B1119F1276D00532038 /* ftv2link.png */,
-				BB654B1219F1276D00532038 /* ftv2mlastnode.png */,
-				BB654B1319F1276D00532038 /* ftv2mnode.png */,
-				BB654B1419F1276D00532038 /* ftv2mo.png */,
-				BB654B1519F1276D00532038 /* ftv2node.png */,
-				BB654B1619F1276D00532038 /* ftv2ns.png */,
-				BB654B1719F1276D00532038 /* ftv2plastnode.png */,
-				BB654B1819F1276D00532038 /* ftv2pnode.png */,
-				BB654B1919F1276D00532038 /* ftv2splitbar.png */,
-				BB654B1A19F1276D00532038 /* ftv2vertline.png */,
-				BB654B1B19F1276D00532038 /* functions.html */,
-				BB654B1C19F1276D00532038 /* functions_func.html */,
-				BB654B1D19F1276D00532038 /* functions_prop.html */,
-				BB654B1E19F1276D00532038 /* functions_vars.html */,
-				BB654B1F19F1276D00532038 /* hierarchy.html */,
-				BB654B2019F1276D00532038 /* hierarchy.js */,
-				BB654B2119F1276D00532038 /* icon.png */,
-				BB654B2219F1276D00532038 /* index.html */,
-				BB654B2319F1276D00532038 /* interface_weibo_api.html */,
-				BB654B2419F1276D00532038 /* interface_weibo_api.js */,
-				BB654B2519F1276D00532038 /* interface_weibo_api.png */,
-				BB654B2619F1276D00532038 /* interface_weibo_api_object.html */,
-				BB654B2719F1276D00532038 /* interface_weibo_api_object.js */,
-				BB654B2819F1276D00532038 /* interface_weibo_api_object.png */,
-				BB654B2919F1276D00532038 /* jquery.js */,
-				BB654B2A19F1276D00532038 /* nav_f.png */,
-				BB654B2B19F1276D00532038 /* nav_g.png */,
-				BB654B2C19F1276D00532038 /* nav_h.png */,
-				BB654B2D19F1276D00532038 /* navtree.css */,
-				BB654B2E19F1276D00532038 /* navtree.js */,
-				BB654B2F19F1276D00532038 /* navtreeindex0.js */,
-				BB654B3019F1276D00532038 /* open.png */,
-				BB654B3119F1276D00532038 /* protocol_weibo_auth_delegate-p-members.html */,
-				BB654B3219F1276D00532038 /* protocol_weibo_auth_delegate-p.html */,
-				BB654B3319F1276D00532038 /* protocol_weibo_auth_delegate-p.js */,
-				BB654B3419F1276D00532038 /* protocol_weibo_auth_delegate-p.png */,
-				BB654B3519F1276D00532038 /* protocol_weibo_request_delegate-p-members.html */,
-				BB654B3619F1276D00532038 /* protocol_weibo_request_delegate-p.html */,
-				BB654B3719F1276D00532038 /* protocol_weibo_request_delegate-p.js */,
-				BB654B3819F1276D00532038 /* protocol_weibo_request_delegate-p.png */,
-				BB654B3919F1276D00532038 /* resize.js */,
-				BB654B3A19F1276D00532038 /* sync_off.png */,
-				BB654B3B19F1276D00532038 /* sync_on.png */,
-				BB654B3C19F1276D00532038 /* tab_a.png */,
-				BB654B3D19F1276D00532038 /* tab_b.png */,
-				BB654B3E19F1276D00532038 /* tab_h.png */,
-				BB654B3F19F1276D00532038 /* tab_s.png */,
-				BB654B4019F1276D00532038 /* tabs.css */,
-			);
-			path = html;
-			sourceTree = "<group>";
-		};
-		BB654B4119F1276D00532038 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				BB654B4219F1276D00532038 /* libTCWeiboSDK-arm.a */,
-				BB654B4319F1276D00532038 /* libTCWeiboSDK-i386.a */,
-				BB654B4419F1276D00532038 /* libTCWeiboSDK.a */,
-				BB654B4519F1276D00532038 /* WeiboApi.h */,
-				BB654B4619F1276D00532038 /* WeiboApiObject.h */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		BB79A0A219F2085D00FD47A6 /* 头像 */ = {
-			isa = PBXGroup;
-			children = (
-				BB79A09919F1FFD900FD47A6 /* HDLAvatarImageView.h */,
-				BB79A09A19F1FFD900FD47A6 /* HDLAvatarImageView.m */,
-			);
-			name = "头像";
-			sourceTree = "<group>";
-		};
-		BB79A0B619F21F1800FD47A6 /* 授权 */ = {
-			isa = PBXGroup;
-			children = (
-				BB79A0B719F21F8500FD47A6 /* HDLTXTwitterAuthorization.h */,
-				BB79A0B819F21F8500FD47A6 /* HDLTXTwitterAuthorization.m */,
-			);
-			name = "授权";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -613,77 +323,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB654B6719F1276D00532038 /* functions_prop.html in Resources */,
 				BB654AF019F1229200532038 /* btn_maintab_explore_press@2x.png in Resources */,
-				BB654B6819F1276D00532038 /* functions_vars.html in Resources */,
 				BB654AF319F1229200532038 /* btn_maintab_me_female_nor@2x.png in Resources */,
-				BB654B4B19F1276D00532038 /* bc_s.png in Resources */,
-				BB654B5919F1276D00532038 /* ftv2folderopen.png in Resources */,
-				BB654B8019F1276D00532038 /* protocol_weibo_request_delegate-p.html in Resources */,
-				BB654B4C19F1276D00532038 /* bdwn.png in Resources */,
-				BB654B4819F1276D00532038 /* _weibo_api_object_8h_source.html in Resources */,
 				BB654AF119F1229200532038 /* btn_maintab_home_nor@2x.png in Resources */,
-				BB654B6F19F1276D00532038 /* interface_weibo_api.png in Resources */,
 				BB654AB819F11F7F00532038 /* InfoPlist.strings in Resources */,
-				BB654B7B19F1276D00532038 /* protocol_weibo_auth_delegate-p-members.html in Resources */,
-				BB654B8919F1276D00532038 /* tab_s.png in Resources */,
-				BB654B6319F1276D00532038 /* ftv2splitbar.png in Resources */,
-				BB654B5819F1276D00532038 /* ftv2folderclosed.png in Resources */,
-				BB654B7A19F1276D00532038 /* open.png in Resources */,
 				BB654AF819F1229200532038 /* btn_maintab_message_press@2x.png in Resources */,
-				BB654B5019F1276D00532038 /* closed.png in Resources */,
-				BB654B8819F1276D00532038 /* tab_h.png in Resources */,
 				BB654AF619F1229200532038 /* btn_maintab_me_male_press@2x.png in Resources */,
-				BB654B4F19F1276D00532038 /* classes.html in Resources */,
-				BB654B5E19F1276D00532038 /* ftv2mo.png in Resources */,
-				BB654B7619F1276D00532038 /* nav_h.png in Resources */,
-				BB654B7719F1276D00532038 /* navtree.css in Resources */,
-				BB654B7219F1276D00532038 /* interface_weibo_api_object.png in Resources */,
-				BB654B7F19F1276D00532038 /* protocol_weibo_request_delegate-p-members.html in Resources */,
-				BB654B5C19F1276D00532038 /* ftv2mlastnode.png in Resources */,
-				BB654B8719F1276D00532038 /* tab_b.png in Resources */,
-				BB654B5519F1276D00532038 /* ftv2blank.png in Resources */,
-				BB654B8619F1276D00532038 /* tab_a.png in Resources */,
-				BB654B5619F1276D00532038 /* ftv2cl.png in Resources */,
-				BB654B9519F128D600532038 /* HDLUserLoginViewController.xib in Resources */,
-				BB654B7419F1276D00532038 /* nav_f.png in Resources */,
-				BB654B8419F1276D00532038 /* sync_off.png in Resources */,
-				BB654B4719F1276D00532038 /* _weibo_api_8h_source.html in Resources */,
-				BB654B6219F1276D00532038 /* ftv2pnode.png in Resources */,
-				BB654B5319F1276D00532038 /* doxygen.png in Resources */,
 				BB654AF419F1229200532038 /* btn_maintab_me_female_press@2x.png in Resources */,
-				BB654B6419F1276D00532038 /* ftv2vertline.png in Resources */,
-				BB654B8219F1276D00532038 /* protocol_weibo_request_delegate-p.png in Resources */,
-				BB654B6019F1276D00532038 /* ftv2ns.png in Resources */,
-				BB654B6D19F1276D00532038 /* interface_weibo_api.html in Resources */,
-				BB654B5F19F1276D00532038 /* ftv2node.png in Resources */,
-				BB654B5D19F1276D00532038 /* ftv2mnode.png in Resources */,
-				BB654B5719F1276D00532038 /* ftv2doc.png in Resources */,
-				BB654B6119F1276D00532038 /* ftv2plastnode.png in Resources */,
-				BB654B5A19F1276D00532038 /* ftv2lastnode.png in Resources */,
 				BB654AEF19F1229200532038 /* btn_maintab_explore_nor@2x.png in Resources */,
 				BB654AF719F1229200532038 /* btn_maintab_message_nor@2x.png in Resources */,
-				BB79A09519F1FEE600FD47A6 /* HDLHomeViewController.xib in Resources */,
-				BB654B7C19F1276D00532038 /* protocol_weibo_auth_delegate-p.html in Resources */,
-				BB654B4D19F1276D00532038 /* class_weibo_api-members.html in Resources */,
-				BB654B5219F1276D00532038 /* doxygen.css in Resources */,
-				BB654B6C19F1276D00532038 /* index.html in Resources */,
 				BB654AC319F11F7F00532038 /* Images.xcassets in Resources */,
-				BB654B7E19F1276D00532038 /* protocol_weibo_auth_delegate-p.png in Resources */,
-				BB654B7019F1276D00532038 /* interface_weibo_api_object.html in Resources */,
-				BB654B6B19F1276D00532038 /* icon.png in Resources */,
 				BB654AF219F1229200532038 /* btn_maintab_home_press@2x.png in Resources */,
-				BB654B7519F1276D00532038 /* nav_g.png in Resources */,
-				BB654B8519F1276D00532038 /* sync_on.png in Resources */,
-				BB654B6519F1276D00532038 /* functions.html in Resources */,
-				BB654B6619F1276D00532038 /* functions_func.html in Resources */,
-				BB654B8A19F1276D00532038 /* tabs.css in Resources */,
-				BB654B4E19F1276D00532038 /* class_weibo_api_object-members.html in Resources */,
-				BB654B5119F1276D00532038 /* dir_6537656865ee3923719aa1a57f584d1d.html in Resources */,
-				BB654B5B19F1276D00532038 /* ftv2link.png in Resources */,
 				BB654AF519F1229200532038 /* btn_maintab_me_male_nor@2x.png in Resources */,
-				BB654B6919F1276D00532038 /* hierarchy.html in Resources */,
-				BB654B4919F1276D00532038 /* annotated.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,24 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB654B7819F1276D00532038 /* navtree.js in Sources */,
-				BB654B7D19F1276D00532038 /* protocol_weibo_auth_delegate-p.js in Sources */,
-				BB79A0B919F21F8500FD47A6 /* HDLTXTwitterAuthorization.m in Sources */,
-				BB79A09419F1FEE600FD47A6 /* HDLHomeViewController.m in Sources */,
 				BB654AC119F11F7F00532038 /* InterpersonalRelationsPlatform.xcdatamodeld in Sources */,
-				BB654B4A19F1276D00532038 /* annotated.js in Sources */,
-				BB654B8319F1276D00532038 /* resize.js in Sources */,
-				BB654B6A19F1276D00532038 /* hierarchy.js in Sources */,
-				BB654B8119F1276D00532038 /* protocol_weibo_request_delegate-p.js in Sources */,
-				BB654B6E19F1276D00532038 /* interface_weibo_api.js in Sources */,
 				BB654ABA19F11F7F00532038 /* main.m in Sources */,
-				BB654B9419F128D600532038 /* HDLUserLoginViewController.m in Sources */,
-				BB79A09B19F1FFD900FD47A6 /* HDLAvatarImageView.m in Sources */,
-				BB654B7119F1276D00532038 /* interface_weibo_api_object.js in Sources */,
-				BB654B7319F1276D00532038 /* jquery.js in Sources */,
 				BB654ABE19F11F7F00532038 /* HDLAppDelegate.m in Sources */,
-				BB654B5419F1276D00532038 /* dynsections.js in Sources */,
-				BB654B7919F1276D00532038 /* navtreeindex0.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
