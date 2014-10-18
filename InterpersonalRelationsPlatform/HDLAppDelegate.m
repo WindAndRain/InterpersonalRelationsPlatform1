@@ -19,14 +19,35 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    [self tabbar];
     
-    NSLog(@"11");
         
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
-
+-(void)tabbar
+{
+    HomeViewController *homeVC = [[HomeViewController alloc] init];
+    UINavigationController *nav_homeVC = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    [homeVC.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"tabbaritem.png"] forBarMetrics:UIBarMetricsDefault];
+    
+    MessageViewController *messageVC = [[MessageViewController alloc] init];
+    UINavigationController *nav_messageVC = [[UINavigationController alloc] initWithRootViewController:messageVC];
+    [messageVC.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"tabbaritem.png"] forBarMetrics:UIBarMetricsDefault];
+    
+    QuareViewController *quareVC = [[QuareViewController alloc] init];
+    UINavigationController *nav_quareVC = [[UINavigationController alloc] initWithRootViewController:quareVC];
+    [quareVC.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"tabbaritem.png"] forBarMetrics:UIBarMetricsDefault];
+    
+    DataViewController *dataVC = [[DataViewController alloc] init];
+    UINavigationController *nav_dataVC = [[UINavigationController alloc] initWithRootViewController:dataVC];
+    
+    XNTabBarViewController *tab = [[XNTabBarViewController alloc] init];
+    tab.viewControllers = [NSArray arrayWithObjects:nav_homeVC,nav_messageVC,nav_quareVC,nav_dataVC, nil];
+    
+    self.window.rootViewController = tab;
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
