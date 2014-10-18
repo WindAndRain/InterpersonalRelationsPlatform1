@@ -7,6 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomeViewController.h"
+#import "MessageViewController.h"
+#import "QuareViewController.h"
+#import "DataViewController.h"
+#import "XNTabBarViewController.h"
 
 @interface HDLAppDelegate : UIResponder <UIApplicationDelegate>
 
