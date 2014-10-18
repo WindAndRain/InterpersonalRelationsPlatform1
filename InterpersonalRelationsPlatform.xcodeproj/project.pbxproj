@@ -140,9 +140,9 @@
 		BB654AB319F11F7F00532038 /* InterpersonalRelationsPlatform */ = {
 			isa = PBXGroup;
 			children = (
-				BB654AE019F121A300532038 /* View */,
 				BB654ABC19F11F7F00532038 /* HDLAppDelegate.h */,
 				BB654ABD19F11F7F00532038 /* HDLAppDelegate.m */,
+				BB654AE019F121A300532038 /* View */,
 				BB654AF919F1273300532038 /* Tools */,
 				BB654AE219F121DD00532038 /* Model */,
 				BB654AE119F121AB00532038 /* Controller */,
