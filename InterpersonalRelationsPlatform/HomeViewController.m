@@ -10,7 +10,7 @@
 //第三方下拉刷新
 #import "MJRefresh.h"
 #import "SendEmailsViewController.h"
-
+#import "HDLaddViewController.h"
 
 @interface HomeViewController ()
 
@@ -26,15 +26,74 @@
     }
     return self;
 }
-
+//增加收听
+-(void)addAction:(id)sender
+{
+    NSLog(@"bdfb");
+    HDLaddViewController *add = [[HDLaddViewController alloc]init];
+    UINavigationController*nav_add=[[UINavigationController alloc]initWithRootViewController:add];
+    add.modalPresentationStyle = UIModalTransitionStyleFlipHorizontal;
+    
+    [self presentViewController:nav_add animated:YES completion:^{
+        
+    }];
+}
+-(void)buttonAction:(id)sender
+{
+    
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    aTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 30, 320, [UIScreen mainScreen].bounds.size.height) style:UITableViewStylePlain];
+    
+    
+    bScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 290, 30)];
+    bScrollView.contentSize = CGSizeMake(80*5,30);//设置内容size
+    bScrollView.backgroundColor = [UIColor blueColor];
+    bScrollView.pagingEnabled = YES;//设置页面滚动
+    bScrollView.delegate = self;
+    [self.view addSubview:bScrollView];
+    
+    aScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 30, 320, [UIScreen mainScreen].bounds.size.height)];
+    aScrollView.contentSize = CGSizeMake(320*5,[UIScreen mainScreen].bounds.size.height);//设置内容size
+    aScrollView.backgroundColor = [UIColor grayColor];
+    aScrollView.pagingEnabled = YES;//设置页面滚动
+    aScrollView.delegate = self;
+    [self.view addSubview:aScrollView];
+    for (int i = 0; i<6; i++)
+    {
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        button.frame = CGRectMake(i*80, 0, 80, 30);
+        [button setTitle:[NSString stringWithFormat:@"button%d",i+1] forState:UIControlStateNormal];
+        button.tintColor = [UIColor whiteColor];
+        button.tag = 1001+i;
+        [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
+        [bScrollView addSubview:button];
+    }
+    
+    UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btn2.frame = CGRectMake(290, 0, 30, 30);
+    [btn2 setTitle:@"+" forState:UIControlStateNormal];
+    btn2.backgroundColor = [UIColor blueColor];
+    btn2.tintColor = [UIColor whiteColor];
+    [btn2 addTarget:self action:@selector(addAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn2];
+    
+    aTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, 320, [UIScreen mainScreen].bounds.size.height-140) style:UITableViewStylePlain];
     aTableView.delegate = self;
     aTableView.dataSource = self;
-    [self.view addSubview:aTableView];
+    [aScrollView addSubview:aTableView];
+    
+    bTableView = [[UITableView alloc]initWithFrame:CGRectMake(320, 0, 320*2, [UIScreen mainScreen].bounds.size.height) style:UITableViewStylePlain];
+    bTableView.delegate = self;
+    bTableView.dataSource = self;
+    [aScrollView addSubview:bTableView];
+    
+    cTableView = [[UITableView alloc]initWithFrame:CGRectMake(320*2, 0, 320*3, [UIScreen mainScreen].bounds.size.height) style:UITableViewStylePlain];
+    cTableView.delegate = self;
+    cTableView.dataSource = self;
+    [aScrollView addSubview:cTableView];
     
     [self setupRefresh];
     
@@ -59,8 +118,12 @@
 -(void)setupRefresh
 {
     [aTableView addHeaderWithTarget:self action:@selector(headerRereshing)];
+//    [bTableView addHeaderWithTarget:self action:@selector(headerRereshing)];
+//    [cTableView addHeaderWithTarget:self action:@selector(headerRereshing)];
     //（设置一进界面自动刷新--5行）
     [aTableView headerBeginRefreshing];
+//    [bTableView headerBeginRefreshing];
+//    [cTableView headerBeginRefreshing];
 }
 -(void)headerRereshing
 {
@@ -74,6 +137,12 @@
         [aTableView reloadData];//刷新表格
         // (最好在刷新表格后调用)调用endRefreshing可以结束刷新状态
         [aTableView headerEndRefreshing];//放在刷新表格后面
+//        [bTableView reloadData];//刷新表格
+//        // (最好在刷新表格后调用)调用endRefreshing可以结束刷新状态
+//        [bTableView headerEndRefreshing];//放在刷新表格后面
+//        [cTableView reloadData];//刷新表格
+//        // (最好在刷新表格后调用)调用endRefreshing可以结束刷新状态
+//        [cTableView headerEndRefreshing];//放在刷新表格后面
     });
 }
 
@@ -81,7 +150,7 @@
 //分区
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return 10;
 }
 //行数
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

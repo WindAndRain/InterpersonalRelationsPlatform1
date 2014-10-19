@@ -44,6 +44,8 @@
 		0FA8B0C319F2605F005F960A /* HDLAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8B0C219F2605F005F960A /* HDLAvatarImageView.m */; };
 		0FA8B0C619F26098005F960A /* XNTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8B0C519F26098005F960A /* XNTabBarViewController.m */; };
 		0FA8B0CC19F261E8005F960A /* libTCWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8B0C819F260CD005F960A /* libTCWeiboSDK.a */; };
+		0FA8B0D019F26975005F960A /* HDLaddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8B0CE19F26975005F960A /* HDLaddViewController.m */; };
+		0FA8B0D119F26975005F960A /* HDLaddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FA8B0CF19F26975005F960A /* HDLaddViewController.xib */; };
 		B4A5DF8C19F251A0006EA419 /* DataInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A5DF8B19F251A0006EA419 /* DataInterface.m */; };
 		BB654AAC19F11F7F00532038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB654AAB19F11F7F00532038 /* Foundation.framework */; };
 		BB654AAE19F11F7F00532038 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB654AAD19F11F7F00532038 /* CoreGraphics.framework */; };
@@ -135,6 +137,9 @@
 		0FA8B0C819F260CD005F960A /* libTCWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTCWeiboSDK.a; sourceTree = "<group>"; };
 		0FA8B0C919F260CD005F960A /* WeiboApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboApi.h; sourceTree = "<group>"; };
 		0FA8B0CA19F260CD005F960A /* WeiboApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboApiObject.h; sourceTree = "<group>"; };
+		0FA8B0CD19F26975005F960A /* HDLaddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDLaddViewController.h; sourceTree = "<group>"; };
+		0FA8B0CE19F26975005F960A /* HDLaddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDLaddViewController.m; sourceTree = "<group>"; };
+		0FA8B0CF19F26975005F960A /* HDLaddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDLaddViewController.xib; sourceTree = "<group>"; };
 		B4A5DF8A19F251A0006EA419 /* DataInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataInterface.h; sourceTree = "<group>"; };
 		B4A5DF8B19F251A0006EA419 /* DataInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataInterface.m; sourceTree = "<group>"; };
 		BB654AA819F11F7F00532038 /* InterpersonalRelationsPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterpersonalRelationsPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -257,9 +262,7 @@
 				0FA8B08A19F25F12005F960A /* HomeViewController.h */,
 				0FA8B08B19F25F12005F960A /* HomeViewController.m */,
 				0FA8B08C19F25F12005F960A /* HomeViewController.xib */,
-				0FA8B08F19F25F21005F960A /* SendEmailsViewController.h */,
-				0FA8B09019F25F21005F960A /* SendEmailsViewController.m */,
-				0FA8B09119F25F21005F960A /* SendEmailsViewController.xib */,
+				0FA8B0D219F26997005F960A /* 子页面（主页） */,
 			);
 			name = "主页";
 			sourceTree = "<group>";
@@ -295,6 +298,19 @@
 				0FA8B0CA19F260CD005F960A /* WeiboApiObject.h */,
 			);
 			name = SDK;
+			sourceTree = "<group>";
+		};
+		0FA8B0D219F26997005F960A /* 子页面（主页） */ = {
+			isa = PBXGroup;
+			children = (
+				0FA8B08F19F25F21005F960A /* SendEmailsViewController.h */,
+				0FA8B09019F25F21005F960A /* SendEmailsViewController.m */,
+				0FA8B09119F25F21005F960A /* SendEmailsViewController.xib */,
+				0FA8B0CD19F26975005F960A /* HDLaddViewController.h */,
+				0FA8B0CE19F26975005F960A /* HDLaddViewController.m */,
+				0FA8B0CF19F26975005F960A /* HDLaddViewController.xib */,
+			);
+			name = "子页面（主页）";
 			sourceTree = "<group>";
 		};
 		BB654A9F19F11F7F00532038 = {
@@ -542,6 +558,7 @@
 				0FA8B09819F25F35005F960A /* MessageViewController.xib in Resources */,
 				0FA8B07519F25CE1005F960A /* btn_maintab_me_male_nor@2x.png in Resources */,
 				0FA8B07019F25CE1005F960A /* btn_maintab_explore_press@2x.png in Resources */,
+				0FA8B0D119F26975005F960A /* HDLaddViewController.xib in Resources */,
 				0FA8B08219F25DF3005F960A /* icon_more_share_weibo.png in Resources */,
 				BB654AF619F1229200532038 /* (null) in Resources */,
 				BB654AF419F1229200532038 /* (null) in Resources */,
@@ -590,6 +607,7 @@
 				0FA8B0AB19F25F46005F960A /* MJRefreshBaseView.m in Sources */,
 				0FA8B0C619F26098005F960A /* XNTabBarViewController.m in Sources */,
 				0FA8B0B519F25F64005F960A /* QuareViewController.m in Sources */,
+				0FA8B0D019F26975005F960A /* HDLaddViewController.m in Sources */,
 				0FA8B09719F25F35005F960A /* MessageViewController.m in Sources */,
 				0FA8B08D19F25F12005F960A /* HomeViewController.m in Sources */,
 			);

@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface HomeViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
 {
-     UITableView *aTableView;
+     UITableView *aTableView,*bTableView,*cTableView;
+    UIScrollView *aScrollView,*bScrollView;
 }
-@property(retain,nonatomic)IBOutlet UIScrollView *scollView;
+//@property(retain,nonatomic)IBOutlet UIScrollView *scollView;
+
 @end
